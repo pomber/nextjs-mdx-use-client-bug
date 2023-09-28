@@ -6,6 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.3.0",
+    "@next/mdx": "^13.5.3",
+    "@types/mdx": "^2.0.8",
     "next": "canary",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
