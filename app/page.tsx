@@ -1,5 +1,5 @@
-import HelloWorld from "./hello.mdx";
+import Link from 'next/link'
 
 export default function Page() {
-  return <HelloWorld />;
+  return <Link href="/hello">Go to hello</Link>
 }
